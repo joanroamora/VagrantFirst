@@ -1,0 +1,15 @@
+                                                         
+#!/home/vagrant
+
+sudo apt update;
+sudo apt-get install nodejs;
+sudo apt-get install git;
+sudo apt-get install npm;
+mkdir PruebaBash;
+cd PruebaBash;
+git clone https://github.com/joanroamora/movie-analyst-api.git;
+cd movie-analyst-api.git;
+sudo apt-get install nodejs-legacy
+sudo npm install;
+sudo node /home/maverick/PruebaBash/movie-analyst-api/server.js;
+sudo ifconfig;
